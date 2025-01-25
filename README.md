@@ -1,1 +1,3 @@
-# deep-in-compilation-principle
+# compiler-from-scratch
+
+English &nbsp; | &nbsp; [Chinese](./README.zh-CN.md)

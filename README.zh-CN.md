@@ -28,7 +28,7 @@ flowchart LR
 编译阶段:
 
 ```mermaid
-flowchart LR
+flowchart TB
   源语言 --> 词法分析
   词法分析 --> 语法分析
   语法分析 --> 语义分析

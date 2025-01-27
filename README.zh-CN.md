@@ -53,10 +53,21 @@ flowchart TB
 - `Literal`
 - `UnaryExpression`
 - `BinaryExpression`
+- `MemberExpression`
+
+描述词法规则的有效工具: **正规式**和**有限自动机**
+
 
 ### 语法分析
 
 > 语法分析器: 根据语言的语法规则，将词法分析器生成的记号序列组织成一个树形结构，通常称为抽象语法树（Abstract Syntax Tree, AST）
+
+语法规则（文法）的表示:
+
+- 巴科斯-诺尔范式（BNF）
+- 扩展巴科斯-诺尔范式（EBNF）
+
+语法分析方法: 推导和归约
 
 ### 语义分析
 
